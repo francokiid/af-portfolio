@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reddit+Mono:wght@200..900&display=swap');
+
+:root {
+  --primary-color: rgb(17 24 39);
+  --bg-color: #F9FAF9;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cascadia Code', monospace;
+  color: var(--primary-color);
+  background: var(--bg-color);
+}
+
+.bg-grid {
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 1px, transparent 1px);
+  background-size: 5rem 5rem;
+}
+
+.custom-inset {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.outline-text {
+  -webkit-text-stroke: 3px var(--primary-color);
+  font-family: 'IBM Plex Mono', monospace;
+  color: #F9FAF9;
+  font-weight: 700;
+  line-height: 0;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+  .outline-text {
+    -webkit-text-stroke: 4px var(--primary-color);
+  }
+}
