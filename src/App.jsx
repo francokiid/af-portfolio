@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar } from './Navbar';
-import { Home, About } from './components';
+import { Home, About, Skills, Projects, Contact } from './components';
 
 export default function App() {
   return (
@@ -8,6 +8,9 @@ export default function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
     </>
   )
 }
