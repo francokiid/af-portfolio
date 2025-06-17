@@ -1,28 +1,46 @@
 import { FaCode } from "react-icons/fa6";
 import { TbExternalLink } from "react-icons/tb";
 
-export const FeatureCard = ({media, title, description, demo, repo}) => {
+export const FeatureCard = ({ media, title, description, demo, repo }) => {
   const imgSrc = new URL(`../../assets/media/${media}`, import.meta.url).href;
-  
+
   return (
-    <div className="flex flex-col justify-between bg-neutral-50 rounded-md md:rounded-lg custom-inset p-4 md:p-6 gap-4">
+    <div className="custom-inset flex flex-col justify-between gap-4 rounded-md bg-neutral-50 p-4 dark:bg-neutral-800 md:rounded-lg md:p-6">
       <div className="flex flex-col gap-2">
-        <img src={imgSrc} alt={title} className="border-2 border-neutral-200 rounded-t-md md:rounded-t-lg custom-inset mb-4"/>
-        <span className="text-sm md:text-base font-bold uppercase">{title}</span>
-        <span className="text-xs md:text-sm text-neutral-500 justify-normal">{description}</span>
+        <img
+          src={imgSrc}
+          alt={title}
+          className="custom-inset dark: mb-4 rounded-t-md border-2 border-neutral-200 dark:border dark:border-neutral-600 md:rounded-t-lg"
+        />
+        <span className="text-sm font-bold uppercase md:text-base">
+          {title}
+        </span>
+        <span className="justify-normal text-xs text-neutral-500 md:text-sm">
+          {description}
+        </span>
       </div>
-      <div className="flex flex-row justify-end gap-2 text-neutral-700">
-        {demo !== '' && (
-          <a href={demo} target="_blank" className="flex items-center justify-center text-xs md:text-sm px-4 py-2 gap-2 border-1 custom-inset hover:bg-neutral-100 rounded-md transition font-semibold">
-            <span>Demo</span><TbExternalLink/>
+      <div className="flex flex-row justify-end gap-2 text-neutral-600 dark:text-neutral-400">
+        {demo !== "" && (
+          <a
+            href={demo}
+            target="_blank"
+            className="custom-inset flex items-center justify-center gap-2 rounded-md px-4 py-2 text-xs font-semibold transition hover:bg-neutral-100 hover:text-neutral-900 dark:border dark:border-neutral-600 hover:dark:bg-neutral-900 hover:dark:text-neutral-100 md:text-sm"
+          >
+            <span>Demo</span>
+            <TbExternalLink />
           </a>
         )}
-        {repo !== '' && (
-          <a href={repo} target="_blank" className="flex items-center justify-center text-xs md:text-sm px-4 py-2 gap-2 border-1 custom-inset hover:bg-neutral-100 rounded-md dark:bg-transparent dark:text-neutral-100 dark:border-neutral-300 hover:bg-neutral'-200 dark:hover:bg-neutral-800 transition font-semibold">
-            <span>Code</span><FaCode/>
+        {repo !== "" && (
+          <a
+            href={repo}
+            target="_blank"
+            className="border-1 custom-inset hover:bg-neutral'-200 flex items-center justify-center gap-2 rounded-md px-4 py-2 text-xs font-semibold transition hover:bg-neutral-100 hover:text-neutral-900 dark:border dark:border-neutral-600 hover:dark:bg-neutral-900 hover:dark:text-neutral-100 md:text-sm"
+          >
+            <span>Code</span>
+            <FaCode />
           </a>
         )}
       </div>
     </div>
   );
-}
+};

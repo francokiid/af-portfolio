@@ -1,9 +1,8 @@
-import { useEffect } from 'react';
-import Aos from 'aos';
-import '../node_modules/aos/dist/aos.css';
-import './App.css'
-import { Navbar } from './Navbar';
-import { Home, About, Skills, Projects, Contact } from './components';
+import { useEffect } from "react";
+import Aos from "aos";
+import "../node_modules/aos/dist/aos.css";
+import "./App.css";
+import { Navbar, Home, About, Skills, Projects, Contact } from "./components";
 
 export default function App() {
   useEffect(() => {
@@ -15,12 +14,12 @@ export default function App() {
 
   return (
     <>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </>
-  )
+  );
 }
