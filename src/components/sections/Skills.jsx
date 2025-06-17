@@ -40,7 +40,7 @@ export const Skills = () => {
         <div className='flex flex-col md:flex-row items-center md:items-stretch gap-8 md:gap-10 relative'>
 
           {/* Icon Grid */}
-          <div className="grid grid-cols-4 md:grid-cols-5 gap-1 md:gap-4 flex-1">
+          <div className="grid grid-cols-4 md:grid-cols-5 gap-2 md:gap-4 flex-1">
             {cards.map((card, index) => (
               <IconCard key={index} icon={card.icon} label={card.label} />
             ))}
