@@ -20,15 +20,11 @@ section {
   justify-content: center;
 }
 
-p {
-  margin-bottom: 1.5rem;
-}
-
 .bg-grid {
   background-image: 
-    linear-gradient(to right, rgba(23, 23, 23, 0.25) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(23, 23, 23, 0.25) 1px, transparent 1px);
-  background-size: 5rem 5rem;
+    linear-gradient(to right, rgba(23, 23, 23, 0.085) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(23, 23, 23, 0.085) 1px, transparent 1px);
+  background-size: 4rem 4rem;
 }
 
 .custom-inset {
@@ -49,10 +45,6 @@ p {
   
   p, ul {
     font-size: 0.85rem;
-  }
-
-  .bg-grid {
-    background-size: 4rem 4rem;
   }
 
   .outline-text {

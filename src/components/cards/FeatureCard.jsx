@@ -13,12 +13,12 @@ export const FeatureCard = ({media, title, description, demo, repo}) => {
       </div>
       <div className="flex flex-row justify-end gap-2 text-neutral-700">
         {demo !== '' && (
-          <a href={demo} target="_blank" className="flex items-center justify-center text-sm px-4 py-2 gap-2 border-1 custom-inset hover:bg-neutral-100 rounded-md transition font-semibold">
+          <a href={demo} target="_blank" className="flex items-center justify-center text-xs md:text-sm px-4 py-2 gap-2 border-1 custom-inset hover:bg-neutral-100 rounded-md transition font-semibold">
             <span>Demo</span><TbExternalLink/>
           </a>
         )}
         {repo !== '' && (
-          <a href={repo} target="_blank" className="flex items-center justify-center text-sm px-4 py-2 gap-2 border-1 custom-inset hover:bg-neutral-100 rounded-md dark:bg-transparent dark:text-neutral-100 dark:border-neutral-300 hover:bg-neutral'-200 dark:hover:bg-neutral-800 transition font-semibold">
+          <a href={repo} target="_blank" className="flex items-center justify-center text-xs md:text-sm px-4 py-2 gap-2 border-1 custom-inset hover:bg-neutral-100 rounded-md dark:bg-transparent dark:text-neutral-100 dark:border-neutral-300 hover:bg-neutral'-200 dark:hover:bg-neutral-800 transition font-semibold">
             <span>Code</span><FaCode/>
           </a>
         )}

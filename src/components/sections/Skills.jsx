@@ -29,11 +29,11 @@ export const Skills = () => {
 
   return (
     <section id='skills' className='bg-neutral-200'>
-      <div className='mx-auto max-w-5xl w-full px-8'>
+      <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" className='mx-auto max-w-5xl w-full px-8'>
 
         {/* Top Paragraph */}
         <p className="mb-10">
-          <span className="font-bold">MY DIGITAL TOOLSET.</span> The tech and tools I use to build my web projects.
+          <span className="font-bold text-md md:text-lg">MY DIGITAL TOOLSET.</span> The tech and tools I use to build my web projects.
         </p>
 
         {/* Flex Row with Grid and Description */}
@@ -56,7 +56,7 @@ export const Skills = () => {
                 <li key={index}>{skill}</li>
               ))}
             </ul>
-            <p className="mb-0">
+            <p>
               Primarily frontend, with backend experience and a drive to grow further.
             </p>
           </div>

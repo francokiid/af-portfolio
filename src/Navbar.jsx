@@ -76,9 +76,9 @@ export const Navbar = () => {
         <div className="fixed inset-0 bg-neutral-950 bg-opacity-70 flex justify-center items-center z-[1001]">
           <div className="bg-neutral-100 dark:bg-neutral-800 rounded-lg shadow-lg p-8 space-y-4 text-justify w-60">
             <div className="flex items-center justify-between">
-              <span className="flex items-center gap-2 font-bold">
+              <a href="#home" className="flex items-center gap-2 font-bold" onClick={() => setIsPopupOpen(false)}>
                 <RiFolder6Fill /> AF
-              </span>
+              </a>
               <button
                 onClick={() => setIsPopupOpen(false)}
                 className="text-neutral-800 hover:text-neutral-800 dark:hover:text-white"
@@ -88,10 +88,10 @@ export const Navbar = () => {
             </div>
 
             {[
-              { href: "#about", label: "About" },
-              { href: "#skills", label: "Skills" },
-              { href: "#projects", label: "Projects" },
-              { href: "#contact", label: "Contact" },
+              { href: "#about", label: "ABOUT" },
+              { href: "#skills", label: "SKILLS" },
+              { href: "#projects", label: "PROJECTS" },
+              { href: "#contact", label: "CONTACT" },
             ].map(({ href, label }) => (
               <a key={label} href={href} className={linkClasses} onClick={() => setIsPopupOpen(false)}>
                 <FaCaretDown /> {label}

@@ -3,7 +3,7 @@ import { LuGithub, LuMail, LuLinkedin } from "react-icons/lu";
 export const Contact = () => {
   return (
     <section id='contact' className='bg-gradient-to-b from-neutral-50 to-neutral-300 text-center'>
-      <div className='flex flex-col mx-auto max-w-5xl px-8 gap-5 md:gap-10'>
+      <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" className='flex flex-col mx-auto max-w-5xl px-8 gap-5 md:gap-10'>
         <h2 className='text-4xl md:text-6xl font-bold mb-4'>
             GET IN TOUCH
         </h2>

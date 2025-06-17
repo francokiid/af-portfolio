@@ -27,9 +27,9 @@ export const Projects = () => {
 
   return (
     <section id='projects' className='min-h-screen flex-col border-y-1 border-neutral-200 bg-neutral-50 custom-inset'>
-      <div className='max-w-5xl px-8'>
+      <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" className='max-w-5xl px-8'>
         <p className="mb-10">
-          <span className="font-bold">MY FEATURED WORKS.</span> A selection of web apps and designs I’ve built with creativity and code.
+          <span className="font-bold text-md md:text-lg">MY FEATURED WORKS.</span> A selection of web apps and designs I’ve built with creativity and code.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {projects.map((project, index) => (
