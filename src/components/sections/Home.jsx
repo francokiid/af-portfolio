@@ -9,7 +9,7 @@ export const Home = () => {
     >
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-8 px-8 text-center font-bold">
         {/* Text Section */}
-        <div className="flex flex-col gap-4 dark:text-neutral-100 md:gap-6">
+        <div className="flex flex-col gap-4 md:gap-6">
           <h1 className="text-6xl leading-none md:text-9xl">
             <span
               data-aos="fade-right"
