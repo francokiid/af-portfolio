@@ -2,7 +2,7 @@ import { FaCode } from "react-icons/fa6";
 import { TbExternalLink } from "react-icons/tb";
 
 export const FeatureCard = ({media, title, description, demo, repo}) => {
-  const imgSrc = new URL(`../../assets/${media}`, import.meta.url).href;
+  const imgSrc = new URL(`../../assets/media/${media}`, import.meta.url).href;
   
   return (
     <div className="flex flex-col justify-between bg-neutral-50 rounded-xl custom-inset p-6 gap-4">

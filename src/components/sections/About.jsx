@@ -9,7 +9,7 @@ export const About = () => {
         </div>
         <div className="w-1/2 md:w-2/5">
           <img
-            src="../src/assets/sample-img.jpg"
+            src="../src/assets/media/sample-img.jpg"
             alt="Portrait of Angel Franco"
             className="object-cover w-full rounded-xl shadow-inner"
           />
