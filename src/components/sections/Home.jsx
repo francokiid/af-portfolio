@@ -44,12 +44,12 @@ export const Home = () => {
         >
           <a
             href="#projects"
-            className="dark:bg-neutral-5 0 flex items-center justify-center rounded-md border border-neutral-900 bg-neutral-900 px-4 py-2 text-neutral-100 transition hover:bg-neutral-950 dark:border-neutral-100 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200 md:border-2 md:px-8"
+            className="dark:bg-neutral-5 0 flex items-center justify-center rounded-md border border-neutral-900 bg-neutral-900 px-4 py-2 text-neutral-100 hover:bg-neutral-950 dark:border-neutral-100 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200 md:border-2 md:px-8"
           >
             View Projects
             <FaCaretRight className="ml-2" />
           </a>
-          <button className="hover:bg-neutral'-200 flex items-center justify-center rounded-md border border-neutral-900 bg-neutral-100 px-4 py-2 text-neutral-900 transition hover:bg-neutral-200 dark:border-neutral-200 dark:bg-neutral-900 dark:bg-transparent dark:text-neutral-100 dark:hover:bg-neutral-950 md:border-2 md:px-8">
+          <button className="hover:bg-neutral'-200 flex items-center justify-center rounded-md border border-neutral-900 bg-neutral-100 px-4 py-2 text-neutral-900 hover:bg-neutral-200 dark:border-neutral-200 dark:bg-neutral-900 dark:bg-transparent dark:text-neutral-100 dark:hover:bg-neutral-950 md:border-2 md:px-8">
             Download Resume
             <MdDownload className="ml-2" />
           </button>
