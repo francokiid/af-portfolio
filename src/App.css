@@ -58,6 +58,7 @@ section {
 .dark .outline-text {
   -webkit-text-stroke: 4px var(--light-color);
   color: var(--dark-color);
+  font-weight: 700;
 }
 
 ::-webkit-scrollbar {
