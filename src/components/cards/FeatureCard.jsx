@@ -8,8 +8,8 @@ export const FeatureCard = ({media, title, description, demo, repo}) => {
     <div className="flex flex-col justify-between bg-neutral-50 rounded-xl custom-inset p-6 gap-4">
       <div className="flex flex-col gap-2">
         <img src={imgSrc} alt={title} className="border-2 border-neutral-200 rounded-t-xl custom-inset mb-4"/>
-        <span className="font-bold uppercase">{title}</span>
-        <span className="text-sm text-neutral-500 justify-normal">{description}</span>
+        <span className="text-sm md:text-base font-bold uppercase">{title}</span>
+        <span className="text-xs md:text-sm text-neutral-500 justify-normal">{description}</span>
       </div>
       <div className="flex flex-row justify-end gap-2 text-neutral-700">
         {demo !== '' && (

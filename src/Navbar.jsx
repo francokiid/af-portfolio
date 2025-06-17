@@ -56,8 +56,8 @@ export const Navbar = () => {
     <>
       <nav className={navClasses}>
         <div className="max-w-5xl mx-auto px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center text-xl font-bold gap-2">
+          <div className="flex justify-between items-center h-10 md:h-16">
+            <div className="flex items-center text-lg md:text-xl font-bold gap-2">
               <button onClick={() => setIsPopupOpen(true)} className="flex items-center gap-2">
                 <RiFolder6Fill /> AF
               </button>
@@ -65,7 +65,7 @@ export const Navbar = () => {
               <span>{currentSection}</span>
             </div>
 
-            <button aria-label="Toggle dark mode" className="text-xl">
+            <button aria-label="Toggle dark mode" className="text-lg md:text-xl">
               <BsFillMoonStarsFill />
             </button>
           </div>

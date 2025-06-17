@@ -32,22 +32,22 @@ export const Skills = () => {
       <div className='mx-auto max-w-5xl w-full px-8'>
 
         {/* Top Paragraph */}
-        <p className="mb-10 relative">
-          <span className="font-bold">MY DIGITAL TOOLSET.</span> The technologies and tools I use to build my web projects.
+        <p className="mb-10">
+          <span className="font-bold">MY DIGITAL TOOLSET.</span> The tech and tools I use to build my web projects.
         </p>
 
         {/* Flex Row with Grid and Description */}
         <div className='flex flex-col md:flex-row items-start md:items-stretch gap-8 md:gap-10 relative'>
 
           {/* Icon Grid */}
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 flex-1">
+          <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 gap-4 flex-1">
             {cards.map((card, index) => (
               <IconCard key={index} icon={card.icon} label={card.label} />
             ))}
           </div>
 
           {/* Description Box */}
-          <div className="md:w-1/3 h-full border-2 rounded-lg custom-inset p-10">
+          <div className="md:w-1/3 h-full border-2 rounded-lg custom-inset p-6 md:p-10">
             <p className="mb-4">
               Skills I’ve worked with:
             </p>
@@ -56,7 +56,7 @@ export const Skills = () => {
                 <li key={index}>{skill}</li>
               ))}
             </ul>
-            <p>
+            <p className="mb-0">
               Primarily frontend, with backend experience and a drive to grow further.
             </p>
           </div>

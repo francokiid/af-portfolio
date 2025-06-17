@@ -26,13 +26,12 @@ export const Projects = () => {
   ];
 
   return (
-    <section id='projects' 
-    className='min-h-screen flex-col border-y-1 border-neutral-200 bg-gradient custom-inset'>
+    <section id='projects' className='min-h-screen flex-col border-y-1 border-neutral-200 bg-neutral-50 custom-inset'>
       <div className='max-w-5xl px-8'>
         <p className="mb-10">
           <span className="font-bold">MY FEATURED WORKS.</span> A selection of web apps and designs I’ve built with creativity and code.
         </p>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {projects.map((project, index) => (
             <FeatureCard key={index} media={project.media} title={project.title} demo={project.demo} repo={project.repo} description={project.description}/>
           ))}
