@@ -7,17 +7,17 @@ export const Home = () => {
       <div className='text-center mx-auto max-w-5xl flex flex-col items-center gap-8 px-8 font-bold'>
         {/* Text Section */}
         <div className='flex flex-col gap-4 md:gap-6'>
-          <h1 className='text-7xl md:text-9xl leading-none'>
+          <h1 className='text-6xl md:text-9xl leading-none'>
             ANGEL<br />
             <span className='outline-text'>FRANCO</span>
           </h1>
-          <h2 className='text-lg md:text-3xl'>
+          <h2 className='text-md md:text-3xl'>
             UI/UX Designer & Frontend Developer
           </h2>
         </div>
 
         {/* Button Section */}
-        <div className='flex flex-row justify-center gap-3 md:gap-6  text-sm md:text-lg font-bold'>
+        <div className='flex flex-col md:flex-row justify-center gap-3 md:gap-6  text-sm md:text-lg font-bold'>
           <a href="#projects" className="flex items-center justify-center px-4 md:px-8 py-2 border-2 border-neutral-800 bg-neutral-800 hover:bg-neutral-900 text-neutral-100 rounded-md transition">
             View Projects
             <FaCaretRight className="ml-2" />

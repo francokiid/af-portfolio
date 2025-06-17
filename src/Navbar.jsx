@@ -56,7 +56,7 @@ export const Navbar = () => {
     <>
       <nav className={navClasses}>
         <div className="max-w-5xl mx-auto px-8">
-          <div className="flex justify-between items-center h-12 md:h-16">
+          <div className="flex justify-between items-center h-16">
             <div className="flex items-center text-lg md:text-xl font-bold gap-2">
               <button onClick={() => setIsPopupOpen(true)} className="flex items-center gap-2">
                 <RiFolder6Fill /> AF

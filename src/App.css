@@ -46,12 +46,13 @@ p {
   section {
     padding: 4rem 0;
   }
+  
   p, ul {
     font-size: 0.85rem;
   }
 
   .bg-grid {
-    background-size: 2.5rem 2.5rem;
+    background-size: 4rem 4rem;
   }
 
   .outline-text {
