@@ -37,7 +37,7 @@ export const Skills = () => {
         </p>
 
         {/* Flex Row with Grid and Description */}
-        <div className='flex flex-col md:flex-row items-start md:items-stretch gap-8 md:gap-10 relative'>
+        <div className='flex flex-col md:flex-row items-center md:items-stretch gap-8 md:gap-10 relative'>
 
           {/* Icon Grid */}
           <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 gap-4 flex-1">

@@ -5,9 +5,9 @@ export const FeatureCard = ({media, title, description, demo, repo}) => {
   const imgSrc = new URL(`../../assets/media/${media}`, import.meta.url).href;
   
   return (
-    <div className="flex flex-col justify-between bg-neutral-50 rounded-xl custom-inset p-6 gap-4">
+    <div className="flex flex-col justify-between bg-neutral-50 rounded-md md:rounded-lg custom-inset p-4 md:p-6 gap-4">
       <div className="flex flex-col gap-2">
-        <img src={imgSrc} alt={title} className="border-2 border-neutral-200 rounded-t-xl custom-inset mb-4"/>
+        <img src={imgSrc} alt={title} className="border-2 border-neutral-200 rounded-t-md md:rounded-t-lg custom-inset mb-4"/>
         <span className="text-sm md:text-base font-bold uppercase">{title}</span>
         <span className="text-xs md:text-sm text-neutral-500 justify-normal">{description}</span>
       </div>
