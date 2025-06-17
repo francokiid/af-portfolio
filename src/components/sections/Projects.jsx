@@ -64,12 +64,7 @@ export const Projects = () => {
       id="projects"
       className="border-y-1 custom-inset min-h-screen flex-col bg-neutral-100 dark:bg-neutral-900"
     >
-      <div
-        data-aos="fade-up"
-        data-aos-delay="500"
-        data-aos-duration="1500"
-        className="max-w-5xl px-8"
-      >
+      <div data-aos="fade-up" data-aos-delay="200" className="max-w-5xl px-8">
         <p className="mb-10">
           <span className="text-md font-bold md:text-lg">
             MY FEATURED WORKS.

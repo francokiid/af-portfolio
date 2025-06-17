@@ -8,8 +8,7 @@ export const Contact = () => {
     >
       <div
         data-aos="fade-up"
-        data-aos-delay="500"
-        data-aos-duration="1500"
+        data-aos-delay="200"
         className="mx-auto flex max-w-5xl flex-col gap-5 px-8 md:gap-10"
       >
         <h2 className="mb-4 text-4xl font-bold md:text-6xl">GET IN TOUCH</h2>

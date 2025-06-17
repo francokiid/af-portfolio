@@ -6,8 +6,7 @@ export const About = () => {
     >
       <div
         data-aos="fade-up"
-        data-aos-delay="500"
-        data-aos-duration="1500"
+        data-aos-delay="200"
         className="mx-auto flex max-w-5xl flex-col-reverse items-center gap-8 px-8 md:flex-row md:gap-16"
       >
         <div className="text-justify md:w-3/5">

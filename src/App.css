@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 
 :root {
-  --dark-color: rgb(23, 23, 23); /* neutral-800 */
-  --light-color: rgb(245, 245, 245); /* neutral-50 */
+  --dark-color: rgb(23, 23, 23); /* neutral-900 */
+  --light-color: rgb(245, 245, 245); /* neutral-100 */
 }
 
 html,
@@ -31,7 +31,7 @@ section {
   background-image:
     linear-gradient(to right, rgba(23, 23, 23, 0.1) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(23, 23, 23, 0.1) 1px, transparent 1px);
-  background-size: 4.5rem 4.5rem;
+  background-size: 3.5rem 3.5rem;
 }
 
 .dark .bg-grid {
@@ -58,6 +58,37 @@ section {
 .dark .outline-text {
   -webkit-text-stroke: 4px var(--light-color);
   color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, var(--dark-color), var(--light-color));
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, var(--dark-color), var(--light-color));
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: rgb(23, 23, 23);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, var(--light-color), var(--dark-color));
+  background-clip: content-box;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, var(--dark-color), var(--light-color));
 }
 
 @media (max-width: 640px) {

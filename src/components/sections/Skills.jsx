@@ -47,8 +47,7 @@ export const Skills = () => {
     <section id="skills" className="bg-neutral-200 dark:bg-neutral-900">
       <div
         data-aos="fade-up"
-        data-aos-delay="500"
-        data-aos-duration="1500"
+        data-aos-delay="200"
         className="mx-auto w-full max-w-5xl px-8"
       >
         {/* Top Paragraph */}

@@ -7,7 +7,7 @@ import { Navbar, Home, About, Skills, Projects, Contact } from "./components";
 export default function App() {
   useEffect(() => {
     Aos.init({
-      duration: 800,
+      duration: 1000,
       once: false,
     });
   }, []);

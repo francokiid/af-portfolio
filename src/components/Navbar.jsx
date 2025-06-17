@@ -106,8 +106,12 @@ export const Navbar = () => {
       </nav>
 
       {isPopupOpen && (
-        <div className="fixed inset-0 z-[1001] flex items-center justify-center bg-neutral-900 bg-opacity-50">
-          <div className="w-60 space-y-4 rounded-lg bg-neutral-100 p-8 text-justify text-neutral-100 shadow-lg dark:bg-neutral-800">
+        <div className="fixed inset-0 z-[1001] flex items-center justify-center bg-neutral-950 bg-opacity-50">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="800"
+            className="w-60 space-y-4 rounded-lg bg-neutral-100 p-8 text-justify shadow-lg dark:bg-neutral-800 dark:text-neutral-100"
+          >
             <div className="flex items-center justify-between">
               <a
                 href="#home"
