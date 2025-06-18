@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-gradient-to-b from-neutral-100 to-neutral-400 text-center dark:from-neutral-900 dark:to-neutral-600"
+      className="custom-inset bg-gradient-to-b from-neutral-100 to-neutral-400 text-center dark:from-neutral-900 dark:to-neutral-600"
     >
       <div
         data-aos="fade-up"

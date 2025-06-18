@@ -25,9 +25,10 @@ export const About = () => {
           </p>
           <br />
           <p>
-            NOW ★ I'm pursuing a <b>BS in Information Technology</b>, and I’m
-            set to graduate in August 2025. I’m actively seeking a{" "}
-            <b>full-time role</b> as a <b>frontend developer</b>.
+            NOW ★ I am based in the <b>Philippines</b> and currently pursuing a{" "}
+            <b>BS in Information Technology</b>, set to graduate in August 2025.
+            I’m actively seeking a <b>full-time role</b> as a{" "}
+            <b>frontend developer</b>.
           </p>
         </div>
         <div className="w-1/2 md:w-2/5">
