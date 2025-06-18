@@ -29,7 +29,7 @@ export const Home = () => {
           </h1>
           <h2
             data-aos="fade-up"
-            data-aos-delay="1000"
+            data-aos-delay="1500"
             className="text-md md:text-3xl"
           >
             UI/UX Designer & Frontend Developer
@@ -39,7 +39,7 @@ export const Home = () => {
         {/* Button Section */}
         <div
           data-aos="fade-up"
-          data-aos-delay="1000"
+          data-aos-delay="1500"
           className="flex flex-col justify-center gap-3 text-sm font-bold md:flex-row md:gap-6 md:text-lg"
         >
           <a
@@ -49,10 +49,14 @@ export const Home = () => {
             View Projects
             <FaCaretRight className="ml-2" />
           </a>
-          <button className="hover:bg-neutral'-200 flex items-center justify-center rounded-md border border-neutral-900 bg-neutral-100 px-4 py-2 text-neutral-900 hover:bg-neutral-200 dark:border-neutral-200 dark:bg-neutral-900 dark:text-neutral-100 dark:hover:bg-neutral-950 md:border-2 md:px-8">
+          <a
+            href="/Angel_Franco_Resume.pdf"
+            download
+            className="hover:bg-neutral'-200 flex items-center justify-center rounded-md border border-neutral-900 bg-neutral-100 px-4 py-2 text-neutral-900 hover:bg-neutral-200 dark:border-neutral-200 dark:bg-neutral-900 dark:text-neutral-100 dark:hover:bg-neutral-950 md:border-2 md:px-8"
+          >
             Download Resume
             <MdDownload className="ml-2" />
-          </button>
+          </a>
         </div>
       </div>
     </section>

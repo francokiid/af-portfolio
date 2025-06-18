@@ -17,13 +17,19 @@ export const Contact = () => {
           below.
         </p>
         <div className="flex flex-row items-center justify-center gap-4 text-2xl md:text-4xl">
-          <a href="">
+          <a
+            href="https://www.linkedin.com/in/angelendayafranco/"
+            target="_blank"
+          >
             <LuLinkedin />
           </a>
-          <a href="">
+          <a href="https://github.com/francokiid" target="_blank">
             <LuGithub />
           </a>
-          <a href="">
+          <a
+            href="mailto:angelendayafranco@gmail.com?subject=Let's%20Connect&body=Hi%20Angel%2C"
+            target="_blank"
+          >
             <LuMail />
           </a>
         </div>
