@@ -14,15 +14,17 @@ export const Projects = () => {
     {
       media: "csd.png",
       title: "Revamped CSD Website",
-      demo: "https://dev-sustainability.batstate-u.edu.ph/",
+      live: "https://dev-sustainability.batstate-u.edu.ph/",
       repo: "",
+      demo: "",
       description:
         "A WordPress site with content management features showcasing sustainable solutions, resources, and articles.",
     },
     {
       media: "top-drive.png",
       title: "Top Drive MIS",
-      demo: "https://www.topdrivedrivinginstitute.com/",
+      live: "https://www.topdrivedrivinginstitute.com/",
+      demo: "https://youtu.be/D5XfmYivDiY?si=let-Fm4J4mlAtJpv",
       repo: "https://github.com/francokiid/top_drive_frontend",
       description:
         "A management information system with a resource recommendation feature through dynamic dropdowns.",
@@ -30,7 +32,8 @@ export const Projects = () => {
     {
       media: "vax-care.png",
       title: "Vax-Care",
-      demo: "https://vax-care.kesug.com/",
+      live: "https://vax-care.kesug.com/",
+      demo: "https://youtu.be/4Yq0G_3GDUA?si=VxbYXrrzjXeYkXJH",
       repo: "https://github.com/francokiid/vax-care",
       description:
         "A vaccination record management system for health workers and pregnant women.",
@@ -38,20 +41,23 @@ export const Projects = () => {
     {
       media: "gotika.png",
       title: "GoTika App",
-      demo: "https://www.figma.com/proto/Eidy3vGo5jbOYUTMrlWg38/GoTika-Mockup?page-id=0%3A1&node-id=1-1715&p=f&viewport=942%2C373%2C0.24&t=r5tfZBo9aLsVVqCo-1&scaling=min-zoom&content-scaling=fixed",
+      live: "https://www.figma.com/proto/Eidy3vGo5jbOYUTMrlWg38/GoTika-Mockup?page-id=0%3A1&node-id=1-1715&p=f&viewport=942%2C373%2C0.24&t=r5tfZBo9aLsVVqCo-1&scaling=min-zoom&content-scaling=fixed",
+      demo: "",
       repo: "",
       description: "A mockup design of an all-in-one pharmacy app.",
     },
     {
       media: "fablink.png",
       title: "FabLink App",
-      demo: "https://www.figma.com/proto/oWEaAhnPulKZSj4G6umzcw/FabLink?page-id=0%3A1&node-id=11-79&p=f&viewport=639%2C561%2C0.15&t=xMXfh0xct89Heg7P-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A79",
+      live: "https://www.figma.com/proto/oWEaAhnPulKZSj4G6umzcw/FabLink?page-id=0%3A1&node-id=11-79&p=f&viewport=639%2C561%2C0.15&t=xMXfh0xct89Heg7P-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A79",
+      demo: "",
       repo: "",
       description: "A mockup design of a booking app for fabrication needs.",
     },
     {
       media: "hangman.png",
       title: "Hangman: Countries",
+      live: "",
       demo: "",
       repo: "https://github.com/francokiid/hangman_countries",
       description:
@@ -78,6 +84,7 @@ export const Projects = () => {
               key={index}
               media={project.media}
               title={project.title}
+              live={project.live}
               demo={project.demo}
               repo={project.repo}
               description={project.description}
