@@ -1,5 +1,5 @@
-import { FaCode } from "react-icons/fa6";
 import { TbExternalLink } from "react-icons/tb";
+import { FaVideo, FaCode } from "react-icons/fa6";
 
 export const FeatureCard = ({
   media,
@@ -44,7 +44,7 @@ export const FeatureCard = ({
             className="custom-inset flex items-center justify-center gap-2 rounded-md px-4 py-2 text-xs font-semibold transition hover:bg-neutral-100 hover:text-neutral-900 dark:border dark:border-neutral-600 hover:dark:bg-neutral-900 hover:dark:text-neutral-100 md:text-sm"
           >
             <span>Demo</span>
-            <TbExternalLink />
+            <FaVideo />
           </a>
         )}
         {repo !== "" && (
