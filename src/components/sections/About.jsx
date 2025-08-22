@@ -1,4 +1,4 @@
-import myGradPic from "../assets/media/my-grad-pic.jpg";
+import myGradPic from "../../assets/media/my-grad-pic.jpg";
 
 export const About = () => {
   return (
