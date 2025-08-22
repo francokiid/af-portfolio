@@ -1,3 +1,5 @@
+import myGradPic from "../assets/media/my-grad-pic.jpg";
+
 export const About = () => {
   return (
     <section
@@ -40,7 +42,7 @@ export const About = () => {
         </div>
         <div className="w-1/2 md:w-2/5">
           <img
-            src="../src/assets/media/my-grad-pic.jpg"
+            src={myGradPic}
             alt="Portrait of Angel Franco"
             className="w-full rounded-md object-cover shadow-inner md:rounded-lg"
           />
