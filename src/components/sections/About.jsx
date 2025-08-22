@@ -25,15 +25,22 @@ export const About = () => {
           </p>
           <br />
           <p>
-            NOW ★ I am based in the <b>Philippines</b> and currently pursuing a{" "}
-            <b>BS in Information Technology</b>, set to graduate in August 2025.
-            I’m actively seeking a <b>full-time role</b> as a{" "}
-            <b>frontend developer</b>.
+            NOW ★ I am based in the <b>Philippines</b> and have earned my BS in{" "}
+            <b>Information Technology</b> with a specialization in{" "}
+            <b>Business Analytics</b>. I’m actively seeking a{" "}
+            <b>full-time role</b> where I can apply my skills in UI design, web
+            development, and quality assurance.
+          </p>
+          <br />
+          <p>
+            ON THE SIDE ★, I enjoy designing <b>printables</b> such as
+            children’s books and event stationery, combining visual design with
+            storytelling.
           </p>
         </div>
         <div className="w-1/2 md:w-2/5">
           <img
-            src="../src/assets/media/sample-img.jpg"
+            src="../src/assets/media/my-grad-pic.jpg"
             alt="Portrait of Angel Franco"
             className="w-full rounded-md object-cover shadow-inner md:rounded-lg"
           />

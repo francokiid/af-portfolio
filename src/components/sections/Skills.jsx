@@ -13,6 +13,8 @@ import {
   SiElementor,
   SiFigma,
   SiCanva,
+  SiJira,
+  SiGooglechrome,
 } from "react-icons/si";
 import { TbBrandMysql } from "react-icons/tb";
 
@@ -33,15 +35,17 @@ export const Skills = () => {
     { icon: <SiElementor />, label: "Elementor" },
     { icon: <SiFigma />, label: "Figma" },
     { icon: <SiCanva />, label: "Canva" },
+    { icon: <SiJira />, label: "Jira" },
+    { icon: <SiGooglechrome />, label: "DevTools" },
   ];
 
   const skills = [
     "Responsive Web Design",
     "Prototyping & Wireframing",
-    "Brand-Aligned UI Design",
     "Git Version Control",
-    "User Testing & Feedback",
+    "Software Testing",
     "SEO Fundamentals",
+    "SDLC & QA Fundamentals",
   ];
 
   return (
@@ -59,7 +63,7 @@ export const Skills = () => {
           <span className="text-md font-bold md:text-lg">
             MY DIGITAL TOOLSET.
           </span>{" "}
-          The tech and tools I use to build my web projects.
+          The tech / tools I use to build my web projects.
         </p>
 
         {/* Flex Row with Grid and Text */}
@@ -80,8 +84,9 @@ export const Skills = () => {
               ))}
             </ul>
             <p className="text-justify">
-              Primarily frontend, with backend experience and a drive to grow
-              further.
+              Passionate about frontend development and software quality
+              assurance, with hands-on backend experience and a continuous drive
+              to learn and grow.
             </p>
           </div>
         </div>

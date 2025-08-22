@@ -13,7 +13,7 @@ export const Projects = () => {
   const projects = [
     {
       media: "csd.png",
-      title: "Revamped CSD Website",
+      title: "Revamped CSD Website | 2025",
       live: "https://dev-sustainability.batstate-u.edu.ph/",
       repo: "",
       demo: "",
@@ -22,7 +22,7 @@ export const Projects = () => {
     },
     {
       media: "top-drive.png",
-      title: "Top Drive MIS",
+      title: "Top Drive MIS | 2025",
       live: "https://www.topdrivedrivinginstitute.com/",
       demo: "https://drive.google.com/file/d/1hFtkOYwe01FDbh-yQIhciJ4ZD8ovcdS_/view?usp=drivesdk",
       repo: "https://github.com/francokiid/top_drive_frontend",
@@ -31,7 +31,7 @@ export const Projects = () => {
     },
     {
       media: "vax-care.png",
-      title: "Vax-Care",
+      title: "Vax-Care | 2023",
       live: "https://vax-care.kesug.com/",
       demo: "https://youtu.be/4Yq0G_3GDUA?si=VxbYXrrzjXeYkXJH",
       repo: "https://github.com/francokiid/vax-care",
@@ -40,7 +40,7 @@ export const Projects = () => {
     },
     {
       media: "gotika.png",
-      title: "GoTika App",
+      title: "GoTika App | 2024",
       live: "",
       demo: "https://www.figma.com/proto/Eidy3vGo5jbOYUTMrlWg38/GoTika-Mockup?page-id=0%3A1&node-id=1-1715&p=f&viewport=942%2C373%2C0.24&t=r5tfZBo9aLsVVqCo-1&scaling=min-zoom&content-scaling=fixed",
       repo: "",
@@ -48,7 +48,7 @@ export const Projects = () => {
     },
     {
       media: "fablink.png",
-      title: "FabLink App",
+      title: "FabLink App | 2025",
       live: "",
       demo: "https://www.figma.com/proto/oWEaAhnPulKZSj4G6umzcw/FabLink?page-id=0%3A1&node-id=11-79&p=f&viewport=639%2C561%2C0.15&t=xMXfh0xct89Heg7P-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A79",
       repo: "",
@@ -56,7 +56,7 @@ export const Projects = () => {
     },
     {
       media: "hangman.png",
-      title: "Hangman: Countries",
+      title: "Hangman: Countries | 2022",
       live: "",
       demo: "",
       repo: "https://github.com/francokiid/hangman_countries",
