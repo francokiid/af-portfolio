@@ -20,7 +20,7 @@ export const About = () => {
           <br />
           <p>
             RECENTLY ★ I completed a three-month{" "}
-            <b>Web Development internship</b> at the{" "}
+            <b>Web Design & Development internship</b> at the{" "}
             <b>Center for Sustainable Development</b>, where I gained hands-on
             experience working on real-world projects and modern development
             workflows.
@@ -35,8 +35,8 @@ export const About = () => {
           </p>
           <br />
           <p>
-            ON THE SIDE ★, I enjoy designing <b>printables</b> such as
-            children’s books and event stationery, combining visual design with
+            ON THE SIDE ★ I enjoy designing <b>printables</b> such as children’s
+            books and event stationery, combining visual design with
             storytelling.
           </p>
         </div>
