@@ -14,7 +14,7 @@ export const Projects = () => {
     {
       media: "csd.png",
       title: "Revamped CSD Website | 2025",
-      live: "https://dev-sustainability.batstate-u.edu.ph/",
+      live: "https://dev-sustainability.batstate-u.edu.ph/events/",
       repo: "",
       demo: "",
       description:
@@ -23,7 +23,7 @@ export const Projects = () => {
     {
       media: "top-drive.png",
       title: "Top Drive MIS | 2025",
-      live: "https://www.topdrivedrivinginstitute.com/",
+      live: "",
       demo: "https://drive.google.com/file/d/1hFtkOYwe01FDbh-yQIhciJ4ZD8ovcdS_/view?usp=drivesdk",
       repo: "https://github.com/francokiid/top_drive_frontend",
       description:

@@ -50,7 +50,7 @@ export const Home = () => {
             <FaCaretRight className="ml-2" />
           </a>
           <a
-            href="/Angel_Franco_Resume.pdf"
+            href="/Angel-Franco_Resume.pdf"
             download
             className="hover:bg-neutral'-200 flex items-center justify-center rounded-md border border-neutral-900 bg-neutral-100 px-4 py-2 text-neutral-900 hover:bg-neutral-200 dark:border-neutral-200 dark:bg-neutral-900 dark:text-neutral-100 dark:hover:bg-neutral-950 md:border-2 md:px-8"
           >
