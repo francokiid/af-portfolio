@@ -12,15 +12,6 @@ export const Projects = () => {
 
   const projects = [
     {
-      media: "homicare.png",
-      title: "Homicare | WORK IN PROGRESS",
-      live: "https://www.figma.com/design/DRAfAdcPvdhSXhpLsPBH3n/homicare?node-id=3-2&t=hGgoJtSyrV4nEZ7C-1",
-      demo: "",
-      repo: "",
-      description:
-        "A web app that connects patients with licensed physical therapists for in-home therapy sessions.",
-    },
-    {
       media: "top-drive.png",
       title: "Top Drive MIS | 2025",
       live: "",
@@ -39,20 +30,21 @@ export const Projects = () => {
         "A WordPress site with content management features showcasing sustainable solutions, resources, and articles.",
     },
     {
+      media: "gotika.png",
+      title: "GoTika App | 2024",
+      live: "",
+      demo: "https://www.figma.com/design/Eidy3vGo5jbOYUTMrlWg38/GoTika-Mockup?node-id=0-1&t=qJoznmhrhrDQL8lU-1",
+      repo: "",
+      description:
+        "A mockup design and presentation of an all-in-one pharmacy app.",
+    },
+    {
       media: "fablink.png",
       title: "FabLink App | 2025",
       live: "",
       demo: "https://www.figma.com/proto/oWEaAhnPulKZSj4G6umzcw/FabLink?page-id=0%3A1&node-id=11-79&p=f&viewport=639%2C561%2C0.15&t=xMXfh0xct89Heg7P-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A79",
       repo: "",
       description: "A mockup design of a booking app for fabrication needs.",
-    },
-    {
-      media: "gotika.png",
-      title: "GoTika App | 2024",
-      live: "",
-      demo: "https://www.figma.com/proto/Eidy3vGo5jbOYUTMrlWg38/GoTika-Mockup?page-id=0%3A1&node-id=1-1715&p=f&viewport=942%2C373%2C0.24&t=r5tfZBo9aLsVVqCo-1&scaling=min-zoom&content-scaling=fixed",
-      repo: "",
-      description: "A mockup design of an all-in-one pharmacy app.",
     },
     {
       media: "vax-care.png",
@@ -71,6 +63,15 @@ export const Projects = () => {
       repo: "https://github.com/francokiid/hangman_countries",
       description:
         "A classic word game in which a player has to guess a random country one letter at a time.",
+    },
+    {
+      media: "homicare.png",
+      title: "Homicare | WORK IN PROGRESS",
+      live: "",
+      demo: "https://www.figma.com/design/DRAfAdcPvdhSXhpLsPBH3n/homicare?node-id=3-2&t=hGgoJtSyrV4nEZ7C-1",
+      repo: "",
+      description:
+        "A web app that connects patients with licensed physical therapists for in-home therapy sessions.",
     },
   ];
 
