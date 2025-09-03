@@ -35,8 +35,6 @@ export const Skills = () => {
     { icon: <SiElementor />, label: "Elementor" },
     { icon: <SiFigma />, label: "Figma" },
     { icon: <SiCanva />, label: "Canva" },
-    { icon: <SiJira />, label: "Jira" },
-    { icon: <SiGooglechrome />, label: "DevTools" },
   ];
 
   const skills = [
@@ -83,11 +81,6 @@ export const Skills = () => {
                 <li key={index}>{skill}</li>
               ))}
             </ul>
-            <p className="text-justify">
-              Passionate about frontend development and software quality
-              assurance, with hands-on backend experience and a continuous drive
-              to learn and grow.
-            </p>
           </div>
         </div>
       </div>

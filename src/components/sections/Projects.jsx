@@ -12,13 +12,13 @@ export const Projects = () => {
 
   const projects = [
     {
-      media: "csd.png",
-      title: "Revamped CSD Website | 2025",
-      live: "https://dev-sustainability.batstate-u.edu.ph/events/",
-      repo: "",
+      media: "homicare.png",
+      title: "Homicare | WORK IN PROGRESS",
+      live: "https://www.figma.com/design/DRAfAdcPvdhSXhpLsPBH3n/homicare?node-id=3-2&t=hGgoJtSyrV4nEZ7C-1",
       demo: "",
+      repo: "",
       description:
-        "A WordPress site with content management features showcasing sustainable solutions, resources, and articles.",
+        "A web app that connects patients with licensed physical therapists for in-home therapy sessions.",
     },
     {
       media: "top-drive.png",
@@ -30,13 +30,21 @@ export const Projects = () => {
         "A management information system with a resource recommendation feature through dynamic dropdowns.",
     },
     {
-      media: "vax-care.png",
-      title: "Vax-Care | 2023",
-      live: "https://vax-care.kesug.com/",
-      demo: "https://youtu.be/4Yq0G_3GDUA?si=VxbYXrrzjXeYkXJH",
-      repo: "https://github.com/francokiid/vax-care",
+      media: "csd.png",
+      title: "Revamped CSD Website | 2025",
+      live: "https://dev-sustainability.batstate-u.edu.ph/events/",
+      repo: "",
+      demo: "",
       description:
-        "A vaccination record management system for health workers and pregnant women.",
+        "A WordPress site with content management features showcasing sustainable solutions, resources, and articles.",
+    },
+    {
+      media: "fablink.png",
+      title: "FabLink App | 2025",
+      live: "",
+      demo: "https://www.figma.com/proto/oWEaAhnPulKZSj4G6umzcw/FabLink?page-id=0%3A1&node-id=11-79&p=f&viewport=639%2C561%2C0.15&t=xMXfh0xct89Heg7P-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A79",
+      repo: "",
+      description: "A mockup design of a booking app for fabrication needs.",
     },
     {
       media: "gotika.png",
@@ -47,12 +55,13 @@ export const Projects = () => {
       description: "A mockup design of an all-in-one pharmacy app.",
     },
     {
-      media: "fablink.png",
-      title: "FabLink App | 2025",
-      live: "",
-      demo: "https://www.figma.com/proto/oWEaAhnPulKZSj4G6umzcw/FabLink?page-id=0%3A1&node-id=11-79&p=f&viewport=639%2C561%2C0.15&t=xMXfh0xct89Heg7P-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A79",
-      repo: "",
-      description: "A mockup design of a booking app for fabrication needs.",
+      media: "vax-care.png",
+      title: "Vax-Care | 2023",
+      live: "https://vax-care.kesug.com/",
+      demo: "https://youtu.be/4Yq0G_3GDUA?si=VxbYXrrzjXeYkXJH",
+      repo: "https://github.com/francokiid/vax-care",
+      description:
+        "A vaccination record management system for health workers and pregnant women.",
     },
     {
       media: "hangman.png",

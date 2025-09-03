@@ -32,7 +32,7 @@ export const Home = () => {
             data-aos-delay="1500"
             className="text-md md:text-3xl"
           >
-            Web Design & Development ★ Quality Assurance
+            UI/UX Design ★ Web Development
           </h2>
         </div>
 
