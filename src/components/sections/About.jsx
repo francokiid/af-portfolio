@@ -13,9 +13,8 @@ export const About = () => {
       >
         <div className="text-justify md:w-3/5">
           <p>
-            Detail-oriented, resourceful, and always learning — I’m driven to
-            bring ideas to life and turn concepts into impactful digital
-            solutions.
+            Creative, resourceful, and always learning — I’m driven to bring
+            ideas to life and turn concepts into impactful digital solutions.
           </p>
           <br />
           <p>
@@ -35,9 +34,8 @@ export const About = () => {
           </p>
           <br />
           <p>
-            ON THE SIDE ★ I enjoy designing <b>printables</b> such as children’s
-            books and event stationery, combining visual design with
-            storytelling.
+            ON THE SIDE ★ I enjoy designing children’s books and event
+            stationery that tell a story through design.
           </p>
         </div>
         <div className="w-1/2 md:w-2/5">

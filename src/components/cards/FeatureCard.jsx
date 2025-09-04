@@ -53,7 +53,7 @@ export const FeatureCard = ({
             target="_blank"
             className="border-1 custom-inset hover:bg-neutral'-200 flex items-center justify-center gap-2 rounded-md px-4 py-2 text-xs font-semibold transition hover:bg-neutral-100 hover:text-neutral-900 dark:border dark:border-neutral-600 hover:dark:bg-neutral-900 hover:dark:text-neutral-100 md:text-sm"
           >
-            <span>Code</span>
+            <span>Source</span>
             <FaCode />
           </a>
         )}

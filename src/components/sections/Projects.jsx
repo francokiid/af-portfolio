@@ -33,8 +33,8 @@ export const Projects = () => {
       media: "gotika.png",
       title: "GoTika App | 2024",
       live: "",
-      demo: "https://www.figma.com/design/Eidy3vGo5jbOYUTMrlWg38/GoTika-Mockup?node-id=0-1&t=qJoznmhrhrDQL8lU-1",
-      repo: "",
+      demo: "https://www.figma.com/proto/Eidy3vGo5jbOYUTMrlWg38/GoTika-Mockup?page-id=0%3A1&node-id=1-786&p=f&viewport=1085%2C465%2C0.26&t=XTdjoD7Ovitb6byf-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A1715",
+      repo: "https://www.figma.com/design/Eidy3vGo5jbOYUTMrlWg38/GoTika-Mockup?node-id=0-1&t=qJoznmhrhrDQL8lU-1",
       description:
         "A mockup design and presentation of an all-in-one pharmacy app.",
     },
@@ -43,7 +43,7 @@ export const Projects = () => {
       title: "FabLink App | 2025",
       live: "",
       demo: "https://www.figma.com/proto/oWEaAhnPulKZSj4G6umzcw/FabLink?page-id=0%3A1&node-id=11-79&p=f&viewport=639%2C561%2C0.15&t=xMXfh0xct89Heg7P-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A79",
-      repo: "",
+      repo: "https://www.figma.com/design/oWEaAhnPulKZSj4G6umzcw/FabLink?node-id=0-1&t=OH6C8kkJrF2fryWf-1",
       description: "A mockup design of a booking app for fabrication needs.",
     },
     {
@@ -68,8 +68,8 @@ export const Projects = () => {
       media: "homicare.png",
       title: "Homicare | WORK IN PROGRESS",
       live: "",
-      demo: "https://www.figma.com/design/DRAfAdcPvdhSXhpLsPBH3n/homicare?node-id=3-2&t=hGgoJtSyrV4nEZ7C-1",
-      repo: "",
+      demo: "",
+      repo: "https://www.figma.com/design/DRAfAdcPvdhSXhpLsPBH3n/homicare?node-id=-2&t=hGgoJtSyrV4nEZ7C-1",
       description:
         "A web app that connects patients with licensed physical therapists for in-home therapy sessions.",
     },
